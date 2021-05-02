@@ -1,5 +1,5 @@
 # Projet-Web
-Du 19 au 25 avril :
+Du 19 au 25 avril : /n
 Pour la premiére semaine, on a essayé de nous familiariser avec le HTML5 ainsi que CSS3 et puis utiliser les connaisances acquises pour créer ce site "Test" générale.
 Du 26 avril au 2 mai :
 On essayera pour la deuxiéme semaine de trouver une idée et l'implémenté avec le code HTML et CSS déjà écrit et puis travailler sur l'aspect dynamique, MVP du notre site web. 

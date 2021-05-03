@@ -2,8 +2,25 @@ var data = '{"donne":[{"title":"Gnat By Eminem","imagepath":"../images/gnat.jpg"
 
 var json = JSON.parse(data);
 
-for (let i=1 ; i<9;i++)
+
+
 document.addEventListener('DOMContentLoaded', function () {
-    document.getElementById('title-'+i).innerHTML = json.donne[i-1].title
-    document.getElementById('image-'+i).src = json.donne[i-1].imagepath
+        for (let i=1 ; i<9;i++){
+            document.getElementById('title-'+i).innerHTML = json.donne[i-1].title
+            document.getElementById('image-'+i).src = json.donne[i-1].imagepath
+        }
+   
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    
+     document.getElementById('1').onclick = myFunction(1);
+    
+    
+
+});
+
+function myFunction(i){
+    document.getElementById('greet').innerHTML = json.donne[i].title
+}
+

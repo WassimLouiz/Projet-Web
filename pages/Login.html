@@ -2,13 +2,84 @@
 <html lang="en">
 
 <head>
-    <title>New WebSite</title>
+    <title>Find The Lyrics</title>
     <meta charset="utf-8" />
 
-    <link rel="stylesheet" href="style.css" type=" text/css" />
+    <link rel="stylesheet" href="../styles/style-log.css" type=" text/css" />
 
     <meta name="viewport" content = "width= device-width , initial-scale=1.0" >
+    <script src="../scripts/main.js"></script>
 </head> 
     <body>
-    <p>Page1</p></body>
+         <header class="pageheader">
+        
+        <nav>
+            <ul> 
+                <li><a class="active" href="../pages/Register.html">Sign Up</a></li>
+                <li><a class="active" href="../pages/Login.html">Sign In</a></li>
+                <li><a class="active" href="../pages/index.html">Home</a></li>
+                <strong><p class="name">Find The Lyrics</p></strong>
+            </ul>
+            
+        </nav>
+    </header>
+        <section>
+        <section>     
+                <h1>Sign In</h1>
+            
+            <a href="/auth/facebook" class="identity_connect_button facebook_button"><img src="../images/facebook.png" class="inline_icon"/>Sign in with Facebook</a>
+
+            <a href="/auth/twitter" class="identity_connect_button twitter_button"><img src="../images/Twitter-bird.png" class="inline_icon"/>Sign in with Twitter</a>
+
+            <a href="/auth/google" class="identity_connect_button google_button"><img src="../images/google.png" class="inline_icon"/>Sign in with Google</a>
+
+
+            <a href="#" class="sign_in_with_email toggle_target identity_connect_button" data-show-with-class="show_sign_up_form" ><img src="../images/email.png" class="inline_icon"/>Sign in with email</a>
+            
+                    <form>
+                        
+                            <label htmlFor="username">Username or email</label>
+                            <input type="text" name="username" placeholder="username" />
+                     
+                            <label htmlFor="password">Password</label>
+                            <input type="text" name="password" placeholder="password" />
+                       
+                  
+                    </form>
+               
+                    <button type="button" className="btn">Sign In</button>
+            
+            <p class="callout" >
+                Don't have an account? <a href="#" class="sign" id="sign">Sign up here.</a>
+            </p>
+            
+          </section>
+            
+    <section class="pop" id="pop">    
+        <span class="popSign" id="Sign">     
+                   <h1>Sign up</h1>
+              <h2>To enjoy your favorite music</h2>
+            
+            <a href="/auth/facebook" class="identity_connect_button facebook_button"><img src="../images/facebook.png" class="inline_icon"/>Sign up with Facebook</a>
+
+            <a href="/auth/twitter" class="identity_connect_button twitter_button"><img src="../images/Twitter-bird.png" class="inline_icon"/>Sign up with Twitter</a>
+
+            <a href="/auth/google" class="identity_connect_button google_button"><img src="../images/google.png" class="inline_icon"/>Sign up with Google</a>
+
+
+            <a href="#" class="sign_in_with_email toggle_target identity_connect_button" data-show-with-class="show_sign_up_form" ><img src="../images/email.png" class="inline_icon"/>Sign up with email</a>
+            
+          </span>
+        <script>
+            document.getElementById("sign").addEventListener("click" , function(){
+            document.getElementById("pop").style.display="flex";
+            })
+        </script>
+    </section> 
+        </section>
+    </body>
+<footer class="mainFooter">
+    <li><p><a href="../pages/Contact.html">Contact Us</a></p></li>
+    <li><p><a href="../pages/About.html" class="active">About</a><p></li>
+</footer>
 </html>

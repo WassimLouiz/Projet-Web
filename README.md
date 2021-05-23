@@ -15,6 +15,6 @@ Vue les problèmes d'installation que nous avons rencontré ces étapes ont pris
 Du 17 mai au 23 mai :  
 Pour cette semaine nous allons terminer les différents pages HTML du site, mise à jour des styles CSS de ces pages ainsi que les scripts nécessaires pour le bon fonctionnement du site.
 On a fait face à un problème dans le script log.js, alors on a dû l’écrire directement dans le code HTML en attendant qu’on trouve une solution.
-De plus on a implémenté le WebSocket, pour l’instant ça nous permet juste de savoir si un client est connecter sur notre site et s’il l’a quitté. 
+De plus on a implémenté le WebSocket, pour l’instant ça nous permet juste de savoir si un client est connecter sur notre site et s’il l’a quitté.  
 Enfin, essayer d'étudier et faire fonctionner le MVP pour notre site. 
 
